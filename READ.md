@@ -29,4 +29,31 @@ git config --global user.name "username"
 
 ```bash
 git init
-```git add
+```
+
+* Para el estado de nuestros cambios
+```bash
+git status
+```
+
+* Agrega los archivos a la memoria de la PC
+```bash
+git add .
+```
+
+* Crea el registro de los cambios realizados
+```bash
+git commit -m "Mensaje del primer commit"
+```
+* Comando para poder ver historial de commit
+
+[ ] Git log retorna un `id` con este id vamos a poder el detalle de los cambios que se hicieron en ese commit
+```bash
+git log
+```
+
+* Para poder ver el detalle de commit usamos
+```bash
+git show id-de-commit
+```
+
