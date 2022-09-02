@@ -57,3 +57,22 @@ git log
 git show id-de-commit
 ```
 
+* Cambiar a la rama main
+```bash
+git branch -M main
+```
+
+* Para enviar al origin del remote
+```bash
+git remote add origin https://github.com/ivamayo/codigo-10.git
+```
+
+* Muestra las url del proyecto 
+```bash
+git remote -v
+```
+
+* Mostrar en que rama estas
+```bash
+git branch
+```
