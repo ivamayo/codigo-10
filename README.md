@@ -76,3 +76,8 @@ git remote -v
 ```bash
 git branch
 ```
+
+* Enviar al repositorio
+```bash
+git push origin main
+```
