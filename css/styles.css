@@ -1,8 +1,13 @@
 /* selectores
 selector de elemento
  */
- :root {
+
+
+:root {
     font-size: 20px;
+ }
+ body{
+    font-family: 'Bungee Spice', cursive;
  }
 
 h1 {
@@ -10,11 +15,12 @@ h1 {
     background-color: beige;
     padding: 20px;
     text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
 }
 /* Selector de ID */
 #div_temas {
-    display: none ;
+    display: block ;
    
 }
 
@@ -40,6 +46,7 @@ h1 {
 
 .laptop > h2 {
     color: blue;
+    font-family: 'Dancing Script', cursive;;
 }
 
 .laptop > h3 {
