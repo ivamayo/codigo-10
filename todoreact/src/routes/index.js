@@ -2,13 +2,14 @@
 import {BrowserRouter, Routes,Route} from "react-router-dom";
 
 //Pas2: Importar nuestras vistas
-import { HomeView } from "../pages";
+import { HomeView, ProfileView } from "../pages";
 
 const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomeView/>} />
+                <Route path="/perfil" element={<ProfileView/>} />
             </Routes>
         </BrowserRouter>
     );
