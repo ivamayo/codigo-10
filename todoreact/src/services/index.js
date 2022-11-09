@@ -72,3 +72,18 @@ export const destroy = async (id) => {
     console.log(error);
   }
 };
+
+export const getById = async (id) => {
+  try {
+    const response = await fetch(`${url}/${id}`, {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json",
+      },
+    });
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.log(error);
+  }
+};
