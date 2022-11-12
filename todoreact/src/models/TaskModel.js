@@ -27,7 +27,7 @@ export class TaskModel {
 
 		if (timeDiff > 3600) {
 			// get hours
-			return "Hace " + Math.round(timeDiff / 3600) + " hrs.";
+			return "Hace " + Math.round(timeDiff / 3600) + "+ hrs.";
 		}
 
 		if (timeDiff > 60) {
@@ -37,5 +37,13 @@ export class TaskModel {
 
 		// get seconds
 		return "Hace " + Math.round(timeDiff) + " seg.";
+	}
+
+	getDateTimeString(date) {
+		return (
+			String(date.toLocaleDateString()) +
+			" " +
+			String(date.toLocaleTimeString())
+		);
 	}
 }
